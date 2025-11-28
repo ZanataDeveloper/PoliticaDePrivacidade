@@ -3,40 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Texto Centralizado</title>
+    <meta name="description" content="Política de Privacidade para aplicativos e jogos offline desenvolvidos por Zanata Developer.">
+    <title>Política de Privacidade</title>
     <style>
+        :root {
+            --bg-color: #f4f4f9;
+            --text-color: #333;
+            --container-bg: #ffffff;
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+        }
+
         body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
         }
+
         .container {
-            width: 60%; /* Ajusta a largura do conteúdo */
-            text-align: justify;
+            max-width: 800px;
+            background: var(--container-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-top: 25px;
+            font-size: 1.2rem;
+        }
+
+        p, li {
+            margin-bottom: 15px;
+            /* Texto alinhado à esquerda é melhor para leitura em mobile do que justificado */
+            text-align: left; 
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact-box {
+            background-color: #e8f4fd;
+            padding: 15px;
+            border-left: 4px solid var(--accent-color);
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Modo Escuro (opcional, caso o usuário tenha preferência no sistema) */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a1a;
+                --text-color: #e0e0e0;
+                --container-bg: #2d2d2d;
+                --primary-color: #ffffff;
+            }
+            .contact-box {
+                background-color: #383838;
+            }
         }
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>Política de Privacidade</h1>
-        <p>Data de Vigência: 10/12/2024<br>
-Respeitamos a sua privacidade e estamos comprometidos em protegê-la.<br> Esta Política de Privacidade descreve como coletamos, usamos e protegemos as informações dos usuários em nosso aplicativo.<br>
-1. Informações que Coletamos<br>
-Nós não coletamos, armazenamos ou processamos nenhum dado pessoal ou informações identificáveis dos usuários em nossos aplicativos. O uso do nosso aplicativo não requer a inserção de informações pessoais.<br>
-2. Cookies e Tecnologias Semelhantes
-Nosso aplicativo não utiliza cookies ou tecnologias semelhantes para coletar dados de navegação ou informações sobre o usuário.<br>
-3. Compartilhamento de Informações<br>
-Como não coletamos dados, não compartilhamos informações com terceiros. Não vendemos, trocamos ou transferimos de qualquer forma informações para terceiros.<br>
-4. Segurança<br>
-Embora não coletamos informações, tomamos medidas adequadas para proteger o aplicativo contra acessos não autorizados, alterações e destruição de dados.<br>
-5. Alterações a Esta Política de Privacidade<br>
-Podemos atualizar esta Política de Privacidade ocasionalmente. Se fizermos alterações significativas, notificaremos os usuários por meio de um aviso no aplicativo. Recomendamos que você reveja esta Política de Privacidade periodicamente.<br>
-6. Contato<br>
-Se você tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco pelo e-mail.</p>
+        <p><strong>Última atualização:</strong> 27 de Novembro de 2025</p>
+        
+        <p>Esta Política de Privacidade aplica-se a todos os aplicativos e jogos desenvolvidos por <strong>Zanata Developer</strong> disponibilizados na Google Play Store.</p>
+
+        <p>Respeitamos profundamente a sua privacidade. O nosso compromisso é oferecer uma experiência segura, divertida e completamente offline. Esta política descreve de forma transparente que não coletamos dados.</p>
+
+        <h2>1. Coleta e Uso de Dados</h2>
+        <p>Para garantir a sua privacidade, nossos aplicativos operam com base no princípio de "Dados Zero":</p>
+        <ul>
+            <li><strong>Não coletamos</strong> informações pessoais (como nome, e-mail, telefone).</li>
+            <li><strong>Não coletamos</strong> dados de localização (GPS).</li>
+            <li><strong>Não coletamos</strong> identificadores de dispositivo.</li>
+            <li><strong>Não utilizamos</strong> bancos de dados externos ou servidores em nuvem para armazenar informações do usuário.</li>
+        </ul>
+        <p>Toda a progressão do jogo ou configurações do aplicativo são salvas localmente no armazenamento interno do seu dispositivo e permanecem exclusivamente sob o seu controle.</p>
+
+        <h2>2. Permissões do Dispositivo</h2>
+        <p>Nossos aplicativos são projetados para funcionar com o mínimo de privilégios possível. Em geral, não solicitamos permissões sensíveis (como acesso à câmera, microfone ou contatos). Caso alguma permissão de armazenamento seja solicitada, ela serve estritamente para salvar o progresso do jogo localmente.</p>
+
+        <h2>3. Publicidade e Analíticos (Analytics)</h2>
+        <p>Nossos aplicativos <strong>não contêm</strong> publicidade de terceiros (anúncios), nem utilizam ferramentas de rastreamento ou análise de dados (como Google Analytics ou Firebase) que enviem informações para fora do seu dispositivo.</p>
+
+        <h2>4. Privacidade Infantil</h2>
+        <p>Nossos aplicativos são seguros para todas as idades. Não coletamos intencionalmente nenhuma informação pessoal de crianças menores de 13 anos (ou idade equivalente conforme a legislação local). Se você é pai ou responsável e tem dúvidas sobre a segurança dos dados, garantimos que não há extração de informações em nossos produtos.</p>
+
+        <h2>5. Isenção de Garantias</h2>
+        <p>O software é fornecido "no estado em que se encontra", sem garantias de qualquer tipo, expressas ou implícitas. Embora nos esforcemos para entregar aplicativos livres de erros, não garantimos que o funcionamento será ininterrupto ou livre de falhas.</p>
+
+        <h2>6. Alterações a Esta Política</h2>
+        <p>Podemos atualizar esta Política de Privacidade ocasionalmente para refletir melhorias ou mudanças legais. A versão mais recente estará sempre disponível neste link. Recomendamos verificar periodicamente.</p>
+
+        <h2>7. Contato</h2>
+        <p>Apesar de não coletarmos dados, estamos à disposição para ouvir seu feedback ou dúvidas sobre nossos aplicativos.</p>
+        
+        <div class="contact-box">
+            <p>Entre em contato pelo e-mail:<br>
+            <strong><a href="mailto:ZanataDeveloper@outlook.com">ZanataDeveloper@outlook.com</a></strong></p>
+        </div>
     </div>
+
 </body>
 </html>
